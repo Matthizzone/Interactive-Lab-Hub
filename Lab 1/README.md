@@ -70,7 +70,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-STORYBOARD
+STORYBOARD (top half)
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_0448.JPG)
 
 \*\***Include a picture of your storyboard here**\*\*
@@ -128,7 +128,8 @@ If the device is used properly, it should not overheat or get wet. It does not n
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
-SKETCH
+SKETCH (bottom half)
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_0448.JPG)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
