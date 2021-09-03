@@ -58,25 +58,27 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ Anywhere food and drink is allowed, for example a cafeteria, outside, at home, etc.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ Person using the device only.
 
-_Activity:_ What is happening between the actors?
+_Activity:_ The user is using the device like a thermometer or geiger counter.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ To determine if a carbonated drink can has been shaken or not.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+STORYBOARD
 
 \*\***Include a picture of your storyboard here**\*\*
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+
+Most people thought the device would be useful; however, they feared that many users would not remember to carry their Shake Meter with them, and they would frequently find themselves not having it on their person when they want to drink a carbonated beverage. It was suggested that a Shake Meter could come with every pack of 6 coke cans (or whoever the participating companies are), or it could be a feature of refrigerators or a smartphone app.
 
 
 ## Part B. Act out the Interaction
@@ -85,7 +87,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+The storyboard accurately depicted the device interaction.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+The device could have a brigher light for a more shaken soda, and a dimmer light for a less shaken soda. In other words, the more dangerous the shaken can is, the brighter the light (or different color).
 
 
 ## Part C. Prototype the device
@@ -106,7 +112,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Was unable to use Tinkerbelle because I was having trouble running Python and connecting to the server from a Chromebook (Chrome OS).
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -117,17 +123,25 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
+If the device is used properly, it should not overheat or get wet. It does not need any bright colors to indicate emergency settings. It should have an ergonomically designed handle for ease of use.
+
 \*\***Include sketches of what your device might look like here.**\*\*
 
+SKETCH
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+The device features a curved surface to indicate where the can should be placed, and a skinny part for where the user's hand should grab it.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+VIDEO
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Calvin Ying, roommate (featured in the video). 
 
 
 
