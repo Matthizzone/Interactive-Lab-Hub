@@ -71,6 +71,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
 STORYBOARD
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_0448.JPG)
 
 \*\***Include a picture of your storyboard here**\*\*
 
