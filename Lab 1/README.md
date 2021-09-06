@@ -83,15 +83,7 @@ The storyboard accurately depicted the device interaction.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
-The device could have a brigher light for a more shaken soda, and a dimmer light for a less shaken soda. In other words, the more dangerous the shaken can is, the brighter the light (or different color).
-
-
-
-
-FIX THIS NOW NOW NOW NO
-
-
-
+The acting we performed was very exaggerated and cartoonish. In reality, this device would not involve so much theatrics and would be used in a similar fashion to a thermometer or pH meter: briefly, discretely, and without much thought.
 
 
 ## Part C. Prototype the device
