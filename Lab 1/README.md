@@ -54,28 +54,21 @@ F) [Record the interaction](#part-f-record)
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
+## Part A. Plan 
 
 _Setting:_ Anywhere food and drink is allowed, for example a cafeteria, outside, at home, etc.
 
-_Players:_ Person using the device only.
+_Players:_ Person using the device only. The light on the device has the potential to get the attention of/distract anyone else in the nearby area.
 
 _Activity:_ The user is using the device like a thermometer or geiger counter.
 
-_Goals:_ To determine if a carbonated drink can has been shaken or not.
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
-\*\***Describe your setting, players, activity and goals here.**\*\*
-
-STORYBOARD (top half)
-![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_0448.JPG)
+_Goals:_ To determine if a carbonated drink can has been shaken or not, and from this, wether or not it is safe to open.
 
 \*\***Include a picture of your storyboard here**\*\*
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+STORYBOARD (top half)
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_0448.JPG)
 
 \*\***Summarize feedback you got here.**\*\*
 
@@ -83,8 +76,6 @@ Most people thought the device would be useful; however, they feared that many u
 
 
 ## Part B. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
@@ -95,21 +86,22 @@ The storyboard accurately depicted the device interaction.
 The device could have a brigher light for a more shaken soda, and a dimmer light for a less shaken soda. In other words, the more dangerous the shaken can is, the brighter the light (or different color).
 
 
+
+
+FIX THIS NOW NOW NOW NO
+
+
+
+
+
 ## Part C. Prototype the device
-
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Was unable to use Tinkerbelle because I was having trouble running Python and connecting to the server from a Chromebook (Chrome OS).
+
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
@@ -117,14 +109,10 @@ Was unable to use Tinkerbelle because I was having trouble running Python and co
 
 \*\***Show the follow-up work here.**\*\*
 
+Was unable to use Tinkerbelle because I was having trouble running Python and connecting to the server from a Chromebook (Chrome OS).
+
 
 ## Part E. Costume the device
-
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-If the device is used properly, it should not overheat or get wet. It does not need any bright colors to indicate emergency settings. It should have an ergonomically designed handle for ease of use.
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
@@ -133,7 +121,7 @@ SKETCH (bottom half)
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-The device features a curved surface to indicate where the can should be placed, and a skinny part for where the user's hand should grab it.
+The device features a curved surface to indicate where the can should be placed, and a skinny, ergonomically designed handle for where the user's hand should grab it. The choice of shapes depicted above help the user to understand the device on their first iteraction with it, without having to read a single word.
 
 
 ## Part F. Record
@@ -143,6 +131,7 @@ The device features a curved surface to indicate where the can should be placed,
 ![Download Video Here](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Staging%20an%20Interaction.mp4)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+
 Calvin Ying, roommate (featured in the video). 
 
 
