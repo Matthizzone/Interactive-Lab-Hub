@@ -140,7 +140,7 @@ The device features a curved surface to indicate where the can should be placed,
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Staging%20an%20Interaction.mp4)
+![Download Video Here](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/Staging%20an%20Interaction.mp4)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Calvin Ying, roommate (featured in the video). 
