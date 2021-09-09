@@ -82,6 +82,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+My partners liked the idea, but would have liked to see more development, such as use of more colors.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
