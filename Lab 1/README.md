@@ -94,10 +94,10 @@ Do last week’s assignment again, but this time:
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 Updated Storyboard:
-![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/storyboard.JPG)
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/storyboard.jpg)
 
 Updated Design:
-![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/illustration.JPG)
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%201/illustration.jpg)
 
 Staged Interaction:
 https://youtu.be/X6f41o8zNhw
