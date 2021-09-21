@@ -192,6 +192,8 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+![Download Video Here](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%202/IMG_0651.mp4)
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
