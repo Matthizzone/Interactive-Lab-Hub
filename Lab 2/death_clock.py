@@ -1,4 +1,5 @@
 import time
+from datetime import date
 from time import strftime
 import subprocess
 import digitalio
@@ -54,7 +55,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -65,9 +66,23 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    text = strftime("%m/%d/%y %H:%M:%S")
-    draw.text((0, 0), text, font=font, fill="#FFFFFF")
+    # Birth Count
+    birth_date = date(1165, 1, 1)
+    birth_days = (date.today() - birth_date).days
+    birth_seconds = birth_days * 86400
+    birth_seconds += int(time.time()) % 86400
+    birth_count = birth_seconds * 4
+    '{:,}'.format(birth_count)
+    draw.text((10, 30), f'{birth_count:,}', font=font, fill="#FFFF00")
+
+    # Death Counter
+    death_date = date(415,1,1)
+    death_days = (date.today() - death_date).days
+    death_seconds = death_days * 86400
+    death_seconds += int(time.time()) % 86400
+    death_count = death_seconds * 2
+    '{:,}'.format(death_count)
+    draw.text((10, 70), f'{death_count:,}', font=font, fill="#FF0000")
 
     # Display image.
     disp.image(image, rotation)
