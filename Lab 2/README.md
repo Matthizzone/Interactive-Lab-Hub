@@ -203,6 +203,9 @@ My clock displays two large numbers: the top (yellow) is the total number of hum
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%202/IMG_0663.JPG)
+
 Currently, the device is very limited visually. It only displays two numbers. To make it more clear, these numbers should have lables "Births" and "Deaths". With this change, the device would only have text on the screen. To make it mroe visually interesting, a bar will be added for each counter. This bar will increase in size slowly, such that every pixel represents a new death/birth since the user has opened the application.
 
 # Prep for Part 2
