@@ -55,35 +55,67 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
+big_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+birth_pile = 0
+death_pile = 0
+quarter_secs = 0
+row_size = 110
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
+    # fractional time
+    quarter_secs += 1
+    if (quarter_secs >= 4):
+        quarter_secs = 0
+
     # Birth Count
+    draw.text((0, 0), 'Births', font=big_font, fill="#FFFFFF")
     birth_date = date(1165, 1, 1)
     birth_days = (date.today() - birth_date).days
     birth_seconds = birth_days * 86400
     birth_seconds += int(time.time()) % 86400
     birth_count = birth_seconds * 4
+    birth_count += 1
     '{:,}'.format(birth_count)
-    draw.text((10, 30), f'{birth_count:,}', font=font, fill="#FFFF00")
+    draw.text((0, 30), f'{birth_count:,}', font=font, fill="#FFFFFF")
+    # Pile
+    birth_pile += 1
+    if (birth_pile > 110 * 85):
+        birth_pile = 0
+        death_pile = 0
+    a = int(birth_pile / row_size)
+    draw.rectangle((0, 134-a, row_size, 135), outline=0, fill="#FFFFFF") # completed rows
+    draw.rectangle((0, 133-a, birth_pile%row_size, 135-a), outline=0, fill="#FFFFFF") # current row
+    draw.text((min(birth_pile%row_size, 85), 118-a), str(birth_pile), font=font, fill="#FFFFFF")
 
     # Death Counter
+    draw.text((120, 0), 'Deaths', font=big_font, fill="#FF000000")
     death_date = date(415,1,1)
     death_days = (date.today() - death_date).days
     death_seconds = death_days * 86400
     death_seconds += int(time.time()) % 86400
     death_count = death_seconds * 2
+    death_count += 1 if quarter_secs % 2 == 0 else 0
     '{:,}'.format(death_count)
-    draw.text((10, 70), f'{death_count:,}', font=font, fill="#FF0000")
+    draw.text((120, 30), f'{death_count:,}', font=font, fill="#FF0000")
+    # Pile
+    death_pile += 1 if quarter_secs % 2 == 0 else 0
+    b = int(death_pile / row_size)
+    draw.rectangle((120, 134-b, 120+row_size, 135), outline=0, fill="#FF0000") # completed rows
+    draw.rectangle((120, 133-b, 120+death_pile%row_size, 135-b), outline=0, fill="#FF0000") # current row
+
+    draw.text((min(death_pile%row_size + 120, 205), 118-b), str(death_pile), font=font, fill="#FF0000")
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.25)
