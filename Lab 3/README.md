@@ -103,15 +103,23 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%203/IMG_0752.JPG)
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+I imagined the user being bored while doing work, needing something to occupy their mind doing busy work. I imagined the user asking for a story, hearing one, not being satisfied at first, and then requesting another verbally. Once the user was satisfied, I imagined that they would tell the device to stop, and would resume working.
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+Video link (partner Ethan Chang):
+https://drive.google.com/file/d/11TEr5njlFkTOQ7WS6TjA7IdtrMv_mNsA/view?usp=sharing
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+In the interaction script, the user begins the interaction by pressing a button on their keyboard, but in the staged interaction, the user began in the interaction by saying "start." Implementing this would require the device to always be listening and respond to "start" in the same way that iPhones respond to "hey siri." This would add to the complexity of the device
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
