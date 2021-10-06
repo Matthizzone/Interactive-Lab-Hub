@@ -211,7 +211,7 @@ My clock displays two large numbers: the top (yellow) is the total number of hum
 
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%202/IMG_0663.JPG)
 
-Currently, the device is very limited visually. It only displays two numbers. To make it more clear, these numbers should have lables "Births" and "Deaths". With this change, the device would only have text on the screen. To make it mroe visually interesting, a bar will be added for each counter. This bar will increase in size slowly, such that every pixel represents a new death/birth since the user has opened the application.
+Currently, the device is very limited visually. It only displays two numbers. To make it more clear, these numbers should have lables "Births" and "Deaths". With this change, the device would only have text on the screen. To make it mroe visually interesting, a bar will be added for each counter. This bar will increase in size slowly, such that every pixel represents a new death/birth since the user has opened the application. This would add to the interaction, as the user could not only acquire textual information but also visual information. This re-inforces the communicaiton between the deivce and the user and allows for better clock reading. Furthermore, the dots falling down onto the pile improve communication since it reminds the user that the pile is being added to one at a time corresponding to the death of an individual. This device does not feature any input from the user. This choice was made because modern day clocks usually don't require any input from the user to function properly. They serve only to be observed. The same is true for this deice.
 
 # Prep for Part 2
 
