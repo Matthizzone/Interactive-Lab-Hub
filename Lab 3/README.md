@@ -138,7 +138,21 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+The initiation: currently the user is supposed to press a button, but there is no communicaiton of this information, leading to awkward start. To fix this I will add a "Press the button to start. For command help, see the small screen on this device."
+
+The interaction mechanics: Users don't feel comfortable talking naturally to a machine. Users want specific keywords to use. Currently there are none. I will added the following keywords: "Another" "Settings" "Stop".
+
+The interaction quality: The user currently doesn't interact with the device much. Simply requesting another story. To improve this, I will add the "Settings" keyword. This allows the user to taylor their story to their specific needs.
+
+"Length" : "one", "two", "three", "four", "five" (sentences)
+"Mood" : "pleasant", "sad", "ominous"
+"Ending" : "comedy", "tragedy"
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+The screen will display the keywords described above, but won't actually say what they do. Just a list of keywords. This is to encourage the user to try them for themselves. TThis adds a feeling of _exploration_ to the device.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
