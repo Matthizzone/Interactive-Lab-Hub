@@ -155,6 +155,8 @@ The screen will display the keywords described above, but won't actually say wha
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%203/Storyboard2.JPG)
+
 ## Prototype your system
 
 The system should:
