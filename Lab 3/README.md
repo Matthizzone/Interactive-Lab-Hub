@@ -185,26 +185,27 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 
+- With just a few instructions from me, the users were able to interact with the device using just their intuition.
 - Even though the robot lacked inflection, users really enjoyed the stories they were told. I think this is because of the novelty of the experience. I'm sure after using the device three or four times, the user would prefer to hear a human-told story nine times out of ten.
-- Many were curious about all the menu settings and their impact on the story they were told.
-- Many users found it strange that they had to say "stop" for the interaction to stop. They prefered it if they were silent for a while, the machine would simply shut down.
+- Many were curious about all the menu settings and their impact on the story they were told. They liked to see where the commands they chose would lead.
 
 ### What worked well about the controller and what didn't?
 
-- With just a few instructions from me, the users were able to interact with the device using just their intuition.
 - Interacting using words only is clunky. Using a keyboard or a video game controller, a user can breeze through many menu screens quickly, but for some reason, that same process of traversing menus feels slow and tends to irritate the users.
+- Many users found it strange that they had to say "stop" for the interaction to stop. They prefered it if they were silent for a while, the machine would simply shut down.
 - At first, users didn't notice the connection between the screen and the speech-enabled controls. I should have included a "Use these words:" or "Say aloud:" or something to make that more clear. And also maybe the machine could say aloud "See the screen for command help".
 - Users seemed to want a "back" button or a "return to home" button.
 - Need some way to tell user what settings already are set to at that moment.
-- Need a way to navigate the settings menu more succinctly. Saying just one word is a frustratingly slow pace for many. 
+- Need a way to navigate the settings menu more succinctly. Saying just one word is a frustratingly slow pace for many.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 - If we're going to use speech, the user has an expectation that they can talk naturally. I chose one-word interactions because they are easy to implement, but this did not seem to pay off.
 - Speech is pretty slow for menu navigation, a keyboard or video game controller is the way to go. Save speech for more complicated commands.
 - I wish I had intended from the beginning to use a more powerful NLP machine, because that opens up the door for a more meaninful interaction than one-word replies, and a robotic voice over.
+- One of the users tried to interrupt the story mid-sentence, even though there was not functionality for this. From this, I learned that speech is closely related to listening, and if a device can talk, users assume they can listen as well.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
-
+- This device doesn't have a way to fail per se. Users would need to quantify their experience using some kind of survey.
+- I think capturing the users speech is enough for a speech-enabled device. Speech is meant to be heard only. Just as two people can talk to each other over the phone (without seeing or touching each other), a machine should be able to capture all the information it needs from the audio file. If we are interested in caputring things like body language, we are going beyond the scope of "speech." If we were, however, interested in body language, it would be difficult to execute. That would require a camera and a very advanced and sensitive machine learning system to pick up on the sublties of human posing and animation.
