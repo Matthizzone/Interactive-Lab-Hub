@@ -167,7 +167,7 @@ The system should:
 *Document how the system works*
 - All the stories that the device is capable of telling are pre-programmed. There is one story for each combination of settings (3x3x2=18).
 - The system uses a finite state machine to keep track of where it is in the menu
-- There are a total of 5 states: 3 "setting" states and 2 different "start" states, one for when the user first logs in and one to return to after each story is told).
+- There are a total of 7 states: 4 "setting" states, 1 "telling a story" state, and 2 different "main menu" states, one for when the user first logs in and one to return to after each story is told).
 - At each state, the machine listens for the key word and uses that to determine which state to advance to.
 - The screen is drawn depending on the state, only.
 - Some words involve a state/screen change and setting change, such as "Ominous" (goes back to main menu and changes mood setting).
