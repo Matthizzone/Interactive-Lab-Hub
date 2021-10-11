@@ -162,11 +162,21 @@ The screen will display the keywords described above, but won't actually say wha
 The system should:
 * use the Raspberry Pi 
 * use one or more sensors
-* require participants to speak to it. 
+* require participants to speak to it.
 
 *Document how the system works*
+- All the stories that the device is capable of telling are pre-programmed. There is one story for each combination of settings (3x3x2=18).
+- The system uses a finite state machine to keep track of where it is in the menu
+- There are a total of 5 states: 3 "setting" states and 2 different "start" states, one for when the user first logs in and one to return to after each story is told).
+- At each state, the machine listens for the key word and uses that to determine which state to advance to.
+- The screen is drawn depending on the state, only.
+- Some words involve a state/screen change and setting change, such as "Ominous" (goes back to main menu and changes mood setting).
+- When the user says "another" or "start", the story is loaded from memory and read by the espeak function listed in text2speech.
+- All listening is deactivated while a story is being told.
+- If nothing is said, the machine will attempt to discern one of the dialogue options in the empty background noise picked up by the microphone (not ideal). You'll see me in the video move through the options quickly to avoid this.
 
 *Include videos or screencaptures of both the system and the controller.*
+Interaction with the prototype: https://youtu.be/ORR983z3Cqo
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -175,6 +185,7 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
 
 ### What worked well about the controller and what didn't?
 
