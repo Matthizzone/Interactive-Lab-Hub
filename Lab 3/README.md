@@ -203,7 +203,7 @@ Answer the following:
 - If we're going to use speech, the user has an expectation that they can talk naturally. I chose one-word interactions because they are easy to implement, but this did not seem to pay off.
 - Speech is pretty slow for menu navigation, a keyboard or video game controller is the way to go. Save speech for more complicated commands.
 - I wish I had intended from the beginning to use a more powerful NLP machine, because that opens up the door for a more meaninful interaction than one-word replies, and a robotic voice over.
-- One of the users tried to interrupt the story mid-sentence, even though there was not functionality for this. From this, I learned that speech is closely related to listening, and if a device can talk, users assume they can listen as well.
+- One of the users tried to interrupt the story mid-sentence, even though there was not functionality for this. From this, I learned that speech is closely related to listening, and if a device can talk, users assume that it can listen as well.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
