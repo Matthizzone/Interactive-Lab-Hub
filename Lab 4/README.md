@@ -226,9 +226,33 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+Ideally, Joystick Keyboard would be a device small enough to be comfortably held in one hand, and there would be no wires or other components attached to it. However, there are issues associated with putting the whole Pi in a single hand.
+
+First, there is an issue of size. The Raspberry Pi circiut board is quite large already, and after being wrapped in a box along with the joystick circuit board, it would definitely be too large to be held all at once (see the design above "clunky"). This inspired the idea for the design "wrist," in which only the joystick is in the hand of the user, but the Pi is attached to some kind of arm band, kind of like a arm-bound phone case for runners. While this does solve the problem of reducing the volume in the user's grip, it seemed uncomfortable to wear and put on/take off: not to mention a safety hazard since the processors on the Raspberry Pi can heat up to burn temperature. 
+
+Second, not matter the design, there will always be a wire running from the users hand. If we assume the user holds just the joystick, the pesky wire will be that connecting the joystick to the Pi. If we assume the user holds both the Pi and the joystick, the pesky wire will be that connecting the Pi to the wall outlet.
+
+Even though the goal was to have a small, one-handed, wireless device, and there was no way to achieve all of these things at once given our current hardware, I have settled with the best alternative: the design "ergonomic". Only the joystick will be contained in a box, and wire will run out the bottom of the device to connect to the Raspberry Pi, which will be rested on a table or in the other hand of the user. The piece in the user's grip should be small, and the only downside is a thin wire running out the device in a place that does not interfere with interaction. (A wire running out of the top of the device might get caught in the user's fingers or in the joystick itself.
+
+
+
+
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+So, as described above the cardboard mock-up of this device features only the joystick sticking out of the top of a small box that is (hopefully) ergonomically designed (this will be tested when other users test the device, I will ask how it feels to hold). The wire runs out the bottom of the device and connects to the Pi
+
+First I selected a firm cardboard and acquired masking tape and scissors. I chose this particular firm cardboard because I did want the device to crumple under human grip strength. I then began construction.
+
+I started with the circular opening out which the joystick protrudes. At first the hole was not circular and instead had many straight edges and corners (like a hexagon). This made rolling the joystick in a circle awkward and not smoothe. I solved this issue by running tape over the corners, and then using the joystick to tuck it in, rounding out the vertexes. After enough iterations, the hole was close to circular. Next I constructed a casing around the bottom of the joystick. This involved many layers of carboard stacked on top of each other. I did not want the device to crumple under the force of human grip strength. Then I used large flat pieces of carboard to conceal the inner workings and complete the build.
+
+At first I set out to match the contour of human hands by only cutting and taping together rectangular cardboard, but his proved to be difficult. I was able to produce a shape that, while not the most aesthetically pleasing, it wasn't burdensome to use and didn't jut out with harsh corners or sharp angles. I was suprised at how well the joystick responds to user input. I had worried that the cardboard container would interfere with it's working but this turned out not to be an issue.
+
+
+
+
+
 
 
 LAB PART 2
