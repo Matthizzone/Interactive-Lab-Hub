@@ -79,6 +79,7 @@ We want to introduce you to the [capacitive sensor](https://learn.adafruit.com/a
 <img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
 </p>
 
+
 Plug in the capacitive sensor board with the QWIIC connector. Connect your Twizzlers with either the copper tape or the alligator clips (the clips work better). In this lab, we will continue to use the `circuitpython` virtual environment we created before. Activate `circuitpython` and `cd` to your Lab 4 folder to install the requirements by:
 
 ```
@@ -175,9 +176,19 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/idea1.png" width="800" />
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/idea2.png" width="800" />
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/idea3.png" width="800" />
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/idea4.png" width="800" />
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/idea5.png" width="800" />
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+\[Included in the images above (handwritten)\]
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+I will design the Joystick Keyboard because I think it will be the most novel and unique device interaction experience for new users.
 
 
 ### Part D
@@ -220,9 +231,15 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/joystick_keyboard_sketches.jpg" width="800" />
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+\[included in the sketches above (handwritten)\]
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+I have chosen to implement the design titled "ergonomic". See explanation below.
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
@@ -238,6 +255,8 @@ Even though the goal was to have a small, one-handed, wireless device, and there
 
 
 Build a cardbord prototype of your design.
+
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/images/prototype.png" width="800" />
 
 **\*\*\*Document your rough prototype.\*\*\***
 
