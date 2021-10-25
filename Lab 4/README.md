@@ -313,7 +313,12 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+
+### Prototype 2
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/IMG_0895.JPG" width="800" />
+Video of the interaction here: https://youtu.be/JVlxOv4SYUg
+
+* "Looks like": The device should resemble a Nintendo Nunchuck.
+* "Works like": Should look and be like a TV remote: 
+* "Acts like": SHould behave like a keyboard:
 
