@@ -316,9 +316,14 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 ### Prototype 2
 <img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/IMG_0895.JPG" width="800" />
+During one interaction, the user held the controller sideways. I realized that without any prior knowledge about the device, there is no clear "correct" orientation. In this protoype, I added text to the top face of the device. That way, even if the user has never seen this device before, they have seen English text which they know how to orient correctly, leading to correct orientation of the device. We see a user holding the device as intended in the second interaction, video taped and available at the link below:
+
 Video of the interaction here: https://youtu.be/JVlxOv4SYUg
 
-* "Looks like": The device should resemble a Nintendo Nunchuck.
-* "Works like": Should look and be like a TV remote: 
-* "Acts like": SHould behave like a keyboard:
+* "Looks like": I drew inspiration for the appearance of this device from a Nintendo Nunchuck (below). The difference is that the Nunchuck is ergonomically designed while the Joystick Keyboard is a harsh rectangle.
+* "Works like": Should look and be like a keyboard: If used properly, the input of English letters one at a time is the exact same function as a keyboard.
+* "Acts like": The interesting twist on this device is that even though it "works like" a keyboard, it really should behave like a TV remote: a one-handed control-at-a-distance point-and-shoot like device.
 
+<img src="https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%204/ideal.png" width="200" />
+
+The biggest challenge I faced in designing this interaction was communicating how to use the device. How to hold it and put your thumb in the right spot was implied by the 3D interposition of parts and shapes, but the mechanics of how to input letters (only lowercase), was a bit confusing at first. Users were frustrated with the lack of accuracy, but after I informed to look past that and instead focus on the mechanics of the interaction instead of the performance, they were pleased with the interesting twist on typing that this device creates, "shaped" by it's 3D shape.
