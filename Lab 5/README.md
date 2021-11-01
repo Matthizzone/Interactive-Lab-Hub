@@ -100,10 +100,21 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+
+
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/contours_01.png)
+Automatically generate a coloring book from a photograph album. By using edge detection, can simplify images to just an outline, which can be used to make any image into a coloring book image.
+
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/face_detect_01.png)
+face detection bathroom mirror: when a face is detected, the sprays the preferred scent of the user in the bathroom.
+
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/obj_detect_01.png)
+Desk clutter meter: keep track of how many objects are on the desk to minitor how stressed the user is over time.
+
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/tracking_01.png)
+"Invisible Ink": tracks what you write as you pretend to write it on a piece of paper with an unclicked pen.
+
+
 
 #### MediaPipe
 
@@ -141,8 +152,13 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+
+
 Link of testing out the hand_pose.py
 https://youtu.be/ai1bvRbpcyA
+Yoga form analyzer: Tells the user how to improve their yoga. Will tell them if their arms are too low or if they need to work on hip flexibility.
+
+
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
