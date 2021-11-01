@@ -197,6 +197,13 @@ This might take a while to get fully installed. After installation, connect your
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
 
+
+Link of testing out the tm_ppe-detection.py
+https://youtu.be/0DH8-8Y1KVM
+This highly trainable model would allow any kind of visual cue detection. This could range from objects as a whole or configurations of them. One idea I had is related to the idea I had for hand_pose.py, but instead of a Yoga form analyzer, it is simply a yoga pose detector.
+
+
+
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
 
@@ -223,12 +230,19 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+https://youtu.be/qCGPUTJhkSU
+Using Google's Teachable Machines, I created the yoga pose detector.
+
+This device takes as input a constant video feed of a person performing yoga poses and outputs one of four possibility that I chose to train the model on: Easy Seat, Tree Pose, Triangle Pose and Crane Pose. After testing the device on myself I found that the model has a strong preference for guessing Easy Seat when the entire body is not in frame. Also, in an attempt to confuse the model, I tried to show it some in between poses, specifically a pose that combined Easy Seat and Tree Pose to see what it would do. It seemed to oscillate back and forth between the two. I also tested camera angles that the model was not trained on, such as a floor-level camera for Tree Pose, and it was suprisingly resilient to this change, still guessing Tree Pose.
+
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
+1. When does it do what it is supposed to do? When show the poses at a
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
