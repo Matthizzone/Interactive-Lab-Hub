@@ -263,8 +263,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * What is a bad environment for X? A bad environment would be a yoga studio with many mirrors, a crowded indoor space like during a yoga class or outside where there are many people. Or in a tight space where the user cannot get their entire body in frame.
 * When will X break? X will break when there are multiple people in the camera's view, when the use performs a pose the machine hasn't been trained on yet, or when the user tries to mix two poses together.
 * When it breaks how will X break? X "breaking" will mean a misclassification, or the classifier will alternative between two choices and never settle on one.
-* What are other properties/behaviors of X? X tends to be very confident (100%) if the pose is done correctly and in proper view. The model usually doesn't sit on 50-50, it swing back and forth between them as the user moves in subtle ways.
-* How does X feel? To use X feels like trying to impress your yoga instructor by showing them new poses you just learned and your reward is a correct classification by the machine, meaning you have done the pose correctly.
+* What are other properties/behaviors of X? X tends to be very confident (100%) if the pose is done correctly and in proper view. If the user is just walking around or transition from standing or walking to a real pose, the model flutters about between all four options.
+* How does X feel? To use X feels like a test of your yoga ability. If you show the camera the poses you just learned correctly, your reward is a correct classification by the machine.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
