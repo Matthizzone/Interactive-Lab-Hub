@@ -268,6 +268,11 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+In this video, I test out the trained yoga pose classifier: https://youtu.be/qCGPUTJhkSU
+If the next part, I intend to change it up a bit. Instead of having multiple different poses, there will be just one pose, but done in 4 slightly different ways, only one of which is techincally correct. For example, one will have "arms too low" or "back not straight". I will test this device on a user to see if the machine can tell the subtle differences apart between correct and incorrect yoga poses, and use that to give the user constructive criticism to improve their form.
+
+
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
