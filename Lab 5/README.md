@@ -109,7 +109,7 @@ Automatically generate a coloring book from a photograph album. By using edge de
 face detection bathroom febreeze: when a face is detected, spray the preferred scent of the user in the bathroom.
 
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/obj_detect_01.png)
-Desk clutter meter: keep track of how many objects are on the desk to minitor how stressed the user is over time.
+Desk clutter meter: keep track of how many objects are on the desk to monitor how stressed the user is over time.
 
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/tracking_01.png)
 "Invisible Ink": tracks what you write as you pretend to write it on a piece of paper with an unclicked pen.
