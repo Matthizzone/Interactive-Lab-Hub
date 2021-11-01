@@ -106,7 +106,7 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 Automatically generate a coloring book from a photograph album. By using edge detection, can simplify images to just an outline, which can be used to make any image into a coloring book image.
 
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/face_detect_01.png)
-face detection bathroom mirror: when a face is detected, the sprays the preferred scent of the user in the bathroom.
+face detection bathroom febreeze: when a face is detected, spray the preferred scent of the user in the bathroom.
 
 ![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/obj_detect_01.png)
 Desk clutter meter: keep track of how many objects are on the desk to minitor how stressed the user is over time.
