@@ -242,29 +242,29 @@ This device takes as input a constant video feed of a person performing yoga pos
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it do what it is supposed to do? When show the poses at a
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do? When show the poses at a reasonable angle (not from straight down or straight up, which would conceal too much information), the model accurately categorizes between the 4 yoga poses. It even succeeds (I would say) when the user challenges the model by mixing poses together, as the model oscillates back and forth between the two that are being mixed between.
+1. When does it fail? It fails if the entire person isn't in frame. Even if the user's foot is outside the frame, the model ignores the whole leg and resorts to guessing easy seat.
+1. When it fails, why does it fail? The pose detection used by Teachable Machines must be a wholistic process. Let's say a user's hands aren't visible (outside the top of the frame), but the rest of the pose is Tree Pose. For a human, it is easy to figure out the correct pose by assuming the rest of the information, but the model can't do process of elimination or any kind of fill in the blank work that we can, so it guesses it's default answer of Easy Seat.
+1. Based on the behavior you have seen, what other scenarios could cause problems? If there are multiple people in the frame, the machine might get confused who it is supposed to be analyzing. In a yoga studio (a location where this device is most likely to be implemented), there usually are mirrors on 2 walls. This means the model might mistake the reflection for another person and get confused.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? No, all the users sees is the name of a pose and a confidence level. There is no way for the user to tell if the machine is actually correct, just guessing, or whether or not the machine has been trained on a that particular pose.
+1. How bad would they be impacted by a miss classification? A miss classification would result in the user being confused.
+1. How could change your interactive system to address this? Instead of just the name of the pose, a picture of the pose should appear on screen too so the user can tell if there is a mismatch between the example picture and the one they are doing.
+1. Are there optimizations you can try to do on your sense-making algorithm? The algorithm should have a "I don't know this pose, what should I call it?" feature so that the user can add new poses if it is outside the machine's scope of knowledge.
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? X can be used to categorize yoga poses. If a user stands in front of the camera and performs the pose, the pose will be named.
+* What is a good environment for X? If a student is learning new yoga poses, they can test them out in front of the camera to see if the camera will detect it, and name it properly. In a place where there isn't much distraction/few other people such as at home or a yoga studio (without mirrors, as described above).
+* What is a bad environment for X? A bad environment would be a yoga studio with many mirrors, a crowded indoor space like during a yoga class or outside where there are many people. Or in a tight space where the user cannot get their entire body in frame.
+* When will X break? X will break when there are multiple people in the camera's view, when the use performs a pose the machine hasn't been trained on yet, or when the user tries to mix two poses together.
+* When it breaks how will X break? X "breaking" will mean a misclassification, or the classifier will alternative between two choices and never settle on one.
+* What are other properties/behaviors of X? X tends to be very confident (100%) if the pose is done correctly and in proper view. The model usually doesn't sit on 50-50, it swing back and forth between them as the user moves in subtle ways.
+* How does X feel? To use X feels like trying to impress your yoga instructor by showing them new poses you just learned and your reward is a correct classification by the machine, meaning you have done the pose correctly.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
