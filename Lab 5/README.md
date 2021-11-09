@@ -271,6 +271,8 @@ During the lecture, we mentioned questions to help characterize a material:
 In this video, I test out the trained yoga pose classifier: https://youtu.be/qCGPUTJhkSU
 If the next part, I intend to change it up a bit. Instead of having multiple different poses, there will be just one pose, but done in 4 slightly different ways, only one of which is techincally correct. For example, one will have "arms too low" or "back not straight". I will test this device on a user to see if the machine can tell the subtle differences apart between correct and incorrect yoga poses, and use that to give the user constructive criticism to improve their form.
 
+I noticed that with the current device design, it is impossible to read feedback without stopping your yoga to go read what the laptop says. I would like to address this by running this device from the Raspberry Pi to change its form. Instead of the device being a huge gaming laptop with textual display, it would be the lightweight webcamand use text-to-speech to enable the user to get feedback while doing the yoga pose. This would eliminate the need to stop, walk towards the display and read the comments.
+
 
 
 ### Part 2.
@@ -279,6 +281,19 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+Unfortuantely, I ran into a lot of issues testing my ideas from the above questions. First I tried implementing the Teachable Machine on the Raspberri Pi, but found it to be more complicated than I thought. First I tried training the model on my laptop, downloading it and running it on the Pi, but I couldn't figure out how to link all the pieces back together. When you download a model from Teachable Machines, the resulting ZIP has 3 files: two JSON and weights.bin (the actual weights and biases the model settled on). I did not know how to this matrix to perform classification on the PI, even after some research. The next thing I tried was accessing the internet from the Pi and training it there from the native browser on the PI, Chromium, but it kept crashing. The window where the webcam livefeed is displayed opened for a brief moment and then closed without showing anything but a black screen. Unfortunately this meant I had the abandon the idea of running Teachable machine on the Pi, and the idea of combining it with text-to-speech.
+
+Next I tested my hypothesis that the Teachable Machine would not classify well if there were many people in the frame. I had some friends in the class (Maggie Horowitz, center, and Ethan Change, right) attempt to advert the classifier while I performed legitamate poses. Here are the results:
+
+
+
+I was able to train a new model with more fine-tuned yoga-classification abilities. You can see the result of that here:
 https://youtu.be/SATvS0aYc9I
+
+1. correct
+2. widen your stance
+3. arm too low
+4. bend more at the back
+5. gaze up
 
 This video shows that minute differences in pose are beyond the capability of Google's Teachable Machines.
