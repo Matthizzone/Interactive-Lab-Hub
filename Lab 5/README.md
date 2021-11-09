@@ -278,3 +278,7 @@ If the next part, I intend to change it up a bit. Instead of having multiple dif
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+https://youtu.be/SATvS0aYc9I
+
+This video shows that minute differences in pose are beyond the capability of Google's Teachable Machines.
