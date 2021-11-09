@@ -154,8 +154,6 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 
 
-Link of testing out the hand_pose.py
-https://youtu.be/ai1bvRbpcyA
 Yoga form analyzer: Tells the user how to improve their yoga. Will tell them if their arms are too low or if they need to work on hip flexibility.
 
 
@@ -283,17 +281,23 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 Unfortuantely, I ran into a lot of issues testing my ideas from the above questions. First I tried implementing the Teachable Machine on the Raspberri Pi, but found it to be more complicated than I thought. First I tried training the model on my laptop, downloading it and running it on the Pi, but I couldn't figure out how to link all the pieces back together. When you download a model from Teachable Machines, the resulting ZIP has 3 files: two JSON and weights.bin (the actual weights and biases the model settled on). I did not know how to this matrix to perform classification on the PI, even after some research. The next thing I tried was accessing the internet from the Pi and training it there from the native browser on the PI, Chromium, but it kept crashing. The window where the webcam livefeed is displayed opened for a brief moment and then closed without showing anything but a black screen. Unfortunately this meant I had the abandon the idea of running Teachable machine on the Pi, and the idea of combining it with text-to-speech.
 
-Next I tested my hypothesis that the Teachable Machine would not classify well if there were many people in the frame. I had some friends in the class (Maggie Horowitz, center, and Ethan Change, right) attempt to advert the classifier while I performed legitamate poses. Here are the results:
+Next I tested my hypothesis that the Teachable Machine would not classify well if there were many people in the frame. I had some friends in the class (Maggie Horowitz, center, and Ethan Change, right) attempt to advert the classifier while I performed legitamate poses. At the same time, not everyone is fully in the frame at all times. This tests the other hypothesis I had that the classifier would not perform well if it did have the full visual picture of the poser. We all stood in front of the camera and recorded a video. Since Teachable Machines only allows images for upload, I chose three key screenshots where everyone was the most still to give the machine the best chance at success. Here are the results for those three images:
 
+![alt text](https://github.com/Matthizzone/Interactive-Lab-Hub/blob/Fall2021/Lab%205/result.png)
 
+I was very surprised with the results. For some of the video, Maggie and Ethan were doing the YMCA dance, and in the left image, you can see both of them in the middle of the "M" pose. The teachable machine was able to single out just Maggie and classify it as the Tree Pose, which wasn't too far off! For the center image, you can see that Maggie is doing the tree pose and at the same time, I am doing easy seat (partly outside the frame), and somehow the model detected both of us at the same time (71% easy seat and 29% tree pose)! I suspect that this was just a coincidence though. In the image you can see blue dots on me but not Maggie, meaning the model was not analyzing her. The reason why 29% tree pose appearing was just do to classification error, likely arising from the occlusion of the left side of my body outside the frame. You can see that same effect did not happen in the right image, where the model is analyzing Maggie only, and it is not also classifying me doing Crane Pose.
 
-I was able to train a new model with more fine-tuned yoga-classification abilities. You can see the result of that here:
-https://youtu.be/SATvS0aYc9I
-
+Finally, I upgraded the Yoga Pose Detector to distinguish slight variations of the same pose instead of entirely different poses. All the poses are Triangle Pose, but there are four incorrect forms and one with correct form. For each incorrect form, the classification label is the feedback that would have been said out loud with text-to-speech. Here are the labels:
 1. correct
 2. widen your stance
 3. arm too low
 4. bend more at the back
 5. gaze up
 
-This video shows that minute differences in pose are beyond the capability of Google's Teachable Machines.
+I took more training photos, and created the new model. In this video, you can see the classification in action:
+https://youtu.be/SATvS0aYc9I
+
+This video shows that minute differences in pose are beyond the capability of Google's Teachable Machines. In the video, I tested the five poses above in order, and found that the model almost always classifies them as "Raise back arm up to the sky." Unfortunately, this meant that not only could I not get text-to-speech to work or the model to run on the Pi, but the core funcitonality of the device couldn't be achieved either. This idea turned out to be beyond the capabilities of the resources offered in class.
+
+Instead, the idea remains unimplemented. However, I still learned a lot about the design of the devices between parts 1 and 2 of this lab, and might try implementing this (with added functionality) for the final project.
+
