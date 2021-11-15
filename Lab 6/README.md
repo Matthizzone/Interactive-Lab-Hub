@@ -165,7 +165,7 @@ The Remote Control KitchenAid allows any user to whisk, mix, mash, scrape and fo
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
-
+I think that if someone encountered this device without any introduction or instruction, it would not be obvious what it does. However, once the user tries out the joystick and sees the servo rotate, I think it would click. This device sets up an expectation that there is a 1-1 correspondence between the rotation of the servo motor and the joystick; however, since the servo is incapable of 360 degree rotation, we were unable to deliver on this expectation.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
