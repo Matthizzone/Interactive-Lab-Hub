@@ -86,6 +86,8 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+![thumbnail_image](https://user-images.githubusercontent.com/60988654/141840943-690fce11-4381-4800-8773-67acf233d582.png)
+
 ### Part C
 ### Streaming a Sensor
 
@@ -107,7 +109,13 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![IMG_1775](https://user-images.githubusercontent.com/60988654/141840968-def1daef-9eff-402b-aaa9-f6a3fe2feef5.JPG)
+![IMG_1776](https://user-images.githubusercontent.com/60988654/141840974-6589a97a-6cd0-4192-b3b3-f1b18c543504.JPG)
+
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+![IMG_1778](https://user-![IMG_1779](https://user-images.githubusercontent.com/60988654/141840985-dd767d21-0d58-46fe-bcd0-d228fba4dbf6.JPG)
+images.githubusercontent.com/60988654/141840982-562b96f5-bbaa-426a-bdb1-ea91b26e9c0f.JPG)
 
 
 ### Part D
