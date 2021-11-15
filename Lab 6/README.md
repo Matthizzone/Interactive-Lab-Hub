@@ -161,7 +161,7 @@ The Remote Control KitchenAid allows any user to whisk, mix, mash, scrape and fo
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-
+![img2](https://user-images.githubusercontent.com/60988654/141859154-2c4782ed-1bb3-4b4d-b64e-2cfa0faf61d9.png)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
