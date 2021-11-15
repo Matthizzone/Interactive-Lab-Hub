@@ -157,11 +157,19 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+The Remote Control KitchenAid allows any user to whisk, mix, mash, scrape and fold their ingredients together--at a distance! No longer do users need to exhaust their arm standing over the kitchen counter. You might ask how this is different from a regular kitchen aid, and the difference is that the users actually have control over how they are whisking. A kitchen Aid only has ON/OFF, but this device tracks the angle that the user inputs into the joystick, and replicates that into kitchen utensil motion. The tool doesn't have to be a whisk, it can be a spoon, rubber scraper, and so much more, allowing for versatiliy--at a distance!
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
