@@ -169,7 +169,7 @@ The Remote Control KitchenAid allows any user to whisk, mix, mash, scrape and fo
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-
+https://youtu.be/p8e4jBTL6k0
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
